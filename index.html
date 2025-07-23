@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chabang Mnisi | Python Backend Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm py-4 sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <a href="#" class="font-bold text-lg">Chabang Mnisi</a>
+      <div class="hidden md:flex gap-6">
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="https://www.linkedin.com/in/chabangmnisi-08b890228" target="_blank" class="hover:text-blue-600">LinkedIn</a>
+        <a href="https://github.com/Chabang28" target="_blank" class="hover:text-blue-600">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-50 to-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <img src="https://media.licdn.com/dms/image/D4D03AQH4fJXm3mSd8g/profile-displayphoto-shrink_400_400/0/1705582763651?e=1721865600&v=beta&t=2R0vGQxq6jX8N9Z7QY9y9Q5Q5Z9X9Q5Z9Q5Z9Q5Z9Q5Z9" 
+           class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-lg">
+      <h1 class="text-4xl md:text-5xl font-bold">Chabang Mnisi</h1>
+      <p class="text-xl md:text-2xl mt-4 text-blue-600 font-medium">Backend Developer | API Specialist</p>
+      <p class="mt-6 text-gray-600 max-w-2xl mx-auto">
+        I build production-ready APIs with Python, FastAPI, and PostgreSQL
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition flex items-center gap-2">
+          <i class="fas fa-code"></i> View Projects
+        </a>
+        <a href="mailto:chabangmnisi@gmail.com" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition flex items-center gap-2">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Projects Section -->
+  <section id="projects" class="py-16 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-center">Live API Projects</h2>
+      <p class="text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+        Fully functional backend systems deployed on Render with interactive documentation
+      </p>
+      
+      <!-- Project 1 -->
+      <div class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+        <div class="order-1 md:order-2">
+          <div class="bg-gray-100 p-6 rounded-lg border border-gray-200 relative">
+            <img src="https://render.com/images/deploy-to-render-button.svg" alt="Hosted on Render" class="h-8 absolute -top-4 -right-4">
+            <h3 class="text-2xl font-bold mb-3">Smart Job Tracker</h3>
+            <p class="text-gray-700 mb-4">
+              A comprehensive API for tracking job applications with status updates, reminders, and analytics.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">FastAPI</span>
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JWT Auth</span>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://smart-job-tracker-70ir.onrender.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded flex items-center gap-2 text-sm">
+                <i class="fas fa-external-link-alt"></i> Live API
+              </a>
+              <a href="https://github.com/Chabang28/smart-job-tracker" target="_blank" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-4 py-2 rounded flex items-center gap-2 text-sm">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="order-2 md:order-1">
+          <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+            <!-- Replace with actual screenshot -->
+            <div class="bg-gray-200 h-64 w-full flex items-center justify-center text-gray-400">
+              <i class="fas fa-image text-4xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+        <div>
+          <div class="bg-gray-100 p-6 rounded-lg border border-gray-200 relative">
+            <img src="https://render.com/images/deploy-to-render-button.svg" alt="Hosted on Render" class="h-8 absolute -top-4 -right-4">
+            <h3 class="text-2xl font-bold mb-3">Expense Tracker API</h3>
+            <p class="text-gray-700 mb-4">
+              Financial management API with budget tracking, expense categorization, and reporting.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">FastAPI</span>
+              <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+              <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">OAuth2</span>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://expense-tracker-api-3-f1be.onrender.com/docs" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded flex items-center gap-2 text-sm">
+                <i class="fas fa-external-link-alt"></i> Swagger Docs
+              </a>
+              <a href="https://github.com/Chabang28/expense-tracker-api" target="_blank" class="border border-green-600 text-green-600 hover:bg-green-50 px-4 py-2 rounded flex items-center gap-2 text-sm">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+            <!-- Replace with actual screenshot -->
+            <div class="bg-gray-200 h-64 w-full flex items-center justify-center text-gray-400">
+              <i class="fas fa-image text-4xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="order-1 md:order-2">
+          <div class="bg-gray-100 p-6 rounded-lg border border-gray-200 relative">
+            <img src="https://render.com/images/deploy-to-render-button.svg" alt="Hosted on Render" class="h-8 absolute -top-4 -right-4">
+            <h3 class="text-2xl font-bold mb-3">Job Board API</h3>
+            <p class="text-gray-700 mb-4">
+              Full-featured job posting platform with company profiles and application management.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Django</span>
+              <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+              <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">REST API</span>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://job-board-api-zdbq.onrender.com/docs" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded flex items-center gap-2 text-sm">
+                <i class="fas fa-external-link-alt"></i> API Docs
+              </a>
+              <a href="https://github.com/Chabang28/job-board-api" target="_blank" class="border border-purple-600 text-purple-600 hover:bg-purple-50 px-4 py-2 rounded flex items-center gap-2 text-sm">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="order-2 md:order-1">
+          <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+            <!-- Replace with actual screenshot -->
+            <div class="bg-gray-200 h-64 w-full flex items-center justify-center text-gray-400">
+              <i class="fas fa-image text-4xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-12 text-center">Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Backend -->
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-4 flex items-center gap-2 text-blue-600">
+            <i class="fas fa-server"></i> Backend
+          </h3>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Python</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> FastAPI</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Django</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> REST APIs</li>
+          </ul>
+        </div>
+        
+        <!-- Databases -->
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-4 flex items-center gap-2 text-blue-600">
+            <i class="fas fa-database"></i> Databases
+          </h3>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> PostgreSQL</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> SQLite</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> MySQL</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Query Optimization</li>
+          </ul>
+        </div>
+        
+        <!-- DevOps -->
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-4 flex items-center gap-2 text-blue-600">
+            <i class="fas fa-cloud"></i> DevOps
+          </h3>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Git/GitHub</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Docker</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Render</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> CI/CD</li>
+          </ul>
+        </div>
+        
+        <!-- Security -->
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-4 flex items-center gap-2 text-blue-600">
+            <i class="fas fa-lock"></i> Security
+          </h3>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> JWT/OAuth2</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> bcrypt</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> RBAC</li>
+            <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Rate Limiting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 bg-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+      <p class="text-lg mb-8 max-w-2xl mx-auto">
+        Interested in collaborating or have questions about my projects?
+      </p>
+      <a href="mailto:chabangmnisi@gmail.com" class="bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 rounded-lg font-medium inline-block">
+        <i class="fas fa-envelope mr-2"></i> Email Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <p class="text-gray-600">© 2024 Chabang Mnisi. All rights reserved.</p>
+        </div>
+        <div class="flex gap-6">
+          <a href="https://github.com/Chabang28" target="_blank" class="text-gray-600 hover:text-blue-600">
+            <i class="fab fa-github text-xl"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/chabangmnisi-08b890228" target="_blank" class="text-gray-600 hover:text-blue-600">
+            <i class="fab fa-linkedin text-xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
